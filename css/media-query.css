@@ -1,0 +1,184 @@
+@media (max-width: 425px) {
+  .feature__card p {
+    font-size: 1.2rem; 
+  }
+
+  .feature__card h4 {
+    font-size: 1.5rem; 
+  }
+
+  .header__content h1{
+    font-size: 3rem;
+  }
+
+  .reviews__text {
+    padding: 0 80px;
+  }
+}
+
+@media (width > 540px) {
+  .best-sellers__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .chef-panel-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .chef-panel-item {
+    margin-bottom: 1rem;
+  }
+
+  .chef-panel-item .img {
+    height: 380px;
+  }
+
+  .feature__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature__card:nth-child(1) {
+    grid-area: 1/1/2/3;
+  }
+}
+
+@media (width > 1000px) {
+  nav {
+    position: static;
+    padding: 2rem 1rem;
+    max-width: var(--max-width);
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .nav__header {
+    background-color: transparent;
+  }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    position: static;
+    padding: 0;
+    flex-direction: row;
+    background-color: transparent;
+    transform: none;
+    z-index: 1;
+  }
+
+  .nav__links a {
+    color: var(--text-dark);
+  }
+
+  .nav__links a:hover {
+    color: var(--primary-color);
+  }
+
+  .header__container {
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+  }
+
+  .header__content h1,
+  .header__content .section__description,
+  .header__btn {
+    text-align: left;
+  }
+
+  .header__image {
+    grid-area: 1/2/2/3;
+  }
+
+  .best-sellers__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .chef-panel-inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .chef-panel-item .img {
+    height: 440px;
+  }
+
+  .chef-panel-item {
+    margin-bottom: 2rem;
+  }
+
+  .feature__card {
+    padding: 1.5rem;
+  }
+
+  .feature__card:nth-child(1) {
+    grid-area: 1/1/3/2;
+  }
+  
+}
+
+@media (max-width: 1000px) {
+  .header__image img{
+    margin-top: 1rem;
+  }
+  
+   .footer__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__col-3 {
+        width: 100%;
+    }
+
+    .footer__col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__social a {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (width > 1024px) {
+  .best-sellers__grid {
+    gap: 2rem;
+  }
+
+  .best-sellers__card {
+    padding: 2rem;
+    border-radius: 8px;
+  }
+
+  .chef-panel-inner {
+    gap: 2rem; 
+  }
+
+  .chef-panel-item {
+    padding: 1rem; 
+  }
+
+  .chef__bg {
+    max-width: 375px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav__logo img {
+    max-height: 60px; 
+    max-width: 120px;
+  }
+
+  .input {
+    width: calc(68% - 10px); 
+  }
+}
